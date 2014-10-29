@@ -30,7 +30,7 @@ class MyApp:
 		
 		self.button4 = Button(self.myContainer1)
 		self.button4.configure(text="Goodbye", background="orange")  
-		self.button4.pack(side=LEFT)	  ### (3)
+		self.button4.pack(side=LEFT)	  ### (4)
 	
 		
 root = Tk()
