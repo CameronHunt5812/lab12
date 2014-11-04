@@ -25,7 +25,7 @@ class MyApp:
 		self.button2 = Button(self.myContainer1)
 		self.button2.configure(text="cancel", background= "red")
 		self.button2.pack(side=LEFT)	
-		self.button2.bind("<Button-2>", self.button2Click) ### (2)
+		self.button2.bind("<Button-1>", self.button2Click) ### (2)
 
 	def button1Click(self, event):    ### (3)
 		if self.button1["background"] == "green": ### (4)
